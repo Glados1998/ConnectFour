@@ -1,0 +1,73 @@
+main {
+
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+    font-family: helvetica, arial, sans-serif;
+
+}
+
+button {
+
+    font-size: 20px;
+    margin:10px;
+    width:auto;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background: royalblue;
+    color: #fff;
+}
+
+#connect4 {
+
+    background: royalblue;
+    border-radius: 25px;
+    margin: 20px;
+    width: auto;
+    height: auto;
+    padding: 25px;
+
+}
+
+.col {
+
+    width: 70px;
+    height:70px;
+    display: inline-block;
+    background-color: white;
+    margin: 6px;
+    border-radius: 50%;
+
+}
+
+.col.empty {
+    cursor: pointer;
+}
+
+.next-red {
+
+    background-color: rgba(255, 0, 0, 0.5);
+
+}
+
+.next-yellow {
+
+    background-color: rgba(255, 255, 0, 0.5);
+
+}
+
+.col.red {
+
+    background: red;
+
+}
+
+.col.yellow {
+
+    background: yellow;
+
+}
+
+
+
