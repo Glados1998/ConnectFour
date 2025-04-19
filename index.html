@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <title>connect 4</title>
+    <title>Connect 4</title>
 </head>
 <body>
 <header>
@@ -18,16 +18,21 @@
 <main>
     <h3>it's <span id="currenPlayer">Red</span>'s turn</h3>
     <div id="connect4"></div>
-
 </main>
 <footer>
-    <section>
+    <section class="button-section">
         <button onclick="gameReset()">Restart game</button>
         <button onclick="gameRules()">Game rules</button>
     </section>
-
     <section>
-
+        <p>
+            Connect 4 is hosted on Amazon Web Services (AWS) and is using the following services:
+        </p>
+        <ul>
+            <li><strong>Amazon S3</strong>: for static file hosting.</li>
+            <li><strong>Amazon Pipeline</strong>: for continuous integration and deployment.</li>
+            <li><strong>Github</strong>: for version control.</li>
+        </ul>
     </section>
 </footer>
 <script src="script.js"></script>
