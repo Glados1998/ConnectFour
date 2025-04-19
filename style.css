@@ -9,19 +9,24 @@ main {
 
 button {
 
-    font-size: 20px;
-    margin: 10px;
-    width: auto;
-    height: 40px;
-    border: none;
-    border-radius: 5px;
-    background: royalblue;
+
+    background: dodgerblue;
     color: #fff;
+    cursor: pointer;
+    transition: background 0.5s, scale 0.5s;
+}
+
+button:hover {
+
+    background: dodgerblue;
+    scale: 1.05;
+    transition: background 0.5s, scale 0.5s;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
 }
 
 #connect4 {
 
-    background: royalblue;
+    background: dodgerblue;
     border-radius: 25px;
     margin: 20px;
     width: auto;
